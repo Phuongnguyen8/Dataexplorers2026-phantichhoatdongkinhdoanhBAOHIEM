@@ -6,7 +6,35 @@ Dự án này là một Dashboard tương tác được xây dựng để phân 
 **Công cụ sử dụng:** Power BI, SQL
 
 ---
+## Quy trình thực hiện (Data Workflow)
+1.  **Trích xuất & Xử lý (SQL):** Làm sạch dữ liệu, xử lý các giá trị bị thiếu và thực hiện các phép tính toán (Aggregations) để chuẩn bị tập dữ liệu cho báo cáo.
+2.  **Mô hình hóa dữ liệu:** Thiết lập các mối quan hệ giữa bảng Khách hàng, Hợp đồng, Sản phẩm và Chi nhánh.
+3.  **Trực quan hóa:** Xây dựng dashboard tương tác giúp nhà quản lý theo dõi biến động kinh doanh theo thời gian thực.
 
+---
+
+##  Kỹ năng SQL sử dụng trong dự án
+Trong dự án này, tôi đã sử dụng các kỹ thuật SQL như:
+*   **CTEs & Subqueries:** Để phân nhóm khách hàng theo doanh thu.
+*   **Window Functions:** Tính toán xu hướng tăng trưởng doanh thu theo tháng.
+*   **Joins:** Kết nối dữ liệu từ nhiều bảng (Khách hàng, Chi nhánh, Kênh bán hàng).
+---
+## Giao diện Dashboard (Tham khảo file BẢO HIỂM.pdf)
+(Lưu ý: Thay thế các link ảnh dưới đây bằng ảnh bạn đã upload lên folder Images trên GitHub)
+
+Trang 1: Tổng quan Doanh thu
+Trang 2: Phân tích Khách hàng
+Trang 3: Phân tích sản phẩm
+Trang 4: Hiệu suất Phòng ban
+
+---
+## Cấu trúc thư mục
+SQL_Scripts/: Chứa các truy vấn xử lý dữ liệu thô.
+Dashboards/: Chứa file gốc báo cáo (.pbix hoặc .twbx).
+Data/: Dữ liệu mẫu (Data Dictionary).
+Images/: Ảnh chụp màn hình các báo cáo.
+
+---
 ## Mục tiêu kinh doanh (Business Questions)
 Dashboard được thiết kế để trả lời các câu hỏi sau:
 1. Doanh thu hiện tại có đạt mục tiêu đề ra không? Đang đến từ những chi nhánh và kênh bán nào?
