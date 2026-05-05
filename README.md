@@ -1,6 +1,6 @@
 # Phân Tích Hoạt Động Kinh Doanh Bảo Hiểm (Insurance Business Performance Dashboard)
 
-##Giới thiệu dự án
+## Giới thiệu dự án
 Dự án này là một Dashboard tương tác được xây dựng để phân tích và theo dõi hiệu suất kinh doanh của một công ty bảo hiểm. Báo cáo cung cấp cái nhìn toàn diện về 4 khía cạnh chính: **Tổng quan doanh thu**, **Hành vi khách hàng**, **Cơ cấu sản phẩm**, và **Hiệu suất của các phòng ban/kênh phân phối**.
 
 **Công cụ sử dụng:** Power BI, SQL
@@ -22,17 +22,17 @@ Trong dự án này, tôi đã sử dụng các kỹ thuật SQL như:
 ## Giao diện Dashboard (Tham khảo file BẢO HIỂM.pdf)
 (Lưu ý: Thay thế các link ảnh dưới đây bằng ảnh bạn đã upload lên folder Images trên GitHub)
 
-Trang 1: Tổng quan Doanh thu
-Trang 2: Phân tích Khách hàng
-Trang 3: Phân tích sản phẩm
-Trang 4: Hiệu suất Phòng ban
+*Trang 1: Tổng quan Doanh thu
+*Trang 2: Phân tích Khách hàng
+*Trang 3: Phân tích sản phẩm
+*Trang 4: Hiệu suất Phòng ban
 
 ---
 ## Cấu trúc thư mục
-SQL_Scripts/: Chứa các truy vấn xử lý dữ liệu thô.
-Dashboards/: Chứa file gốc báo cáo (.pbix hoặc .twbx).
-Data/: Dữ liệu mẫu (Data Dictionary).
-Images/: Ảnh chụp màn hình các báo cáo.
+*SQL_Scripts/: Chứa các truy vấn xử lý dữ liệu thô.
+*Dashboards/: Chứa file gốc báo cáo (.pbix hoặc .twbx).
+*Data/: Dữ liệu mẫu (Data Dictionary).
+*Images/: Ảnh chụp màn hình các báo cáo.
 
 ---
 ## Mục tiêu kinh doanh (Business Questions)
