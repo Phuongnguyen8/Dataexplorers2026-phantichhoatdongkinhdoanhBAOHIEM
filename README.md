@@ -30,9 +30,9 @@ Trong dự án này, tôi đã sử dụng các kỹ thuật SQL như:
 ---
 ## Cấu trúc thư mục
 *SQL_Scripts/: Chứa các truy vấn xử lý dữ liệu thô.
-*Dashboards/: Chứa file gốc báo cáo (.pbix hoặc .twbx).
-*Data/: Dữ liệu mẫu (Data Dictionary).
-*Images/: Ảnh chụp màn hình các báo cáo.
+* Dashboards/: Chứa file gốc báo cáo (.pbix hoặc .twbx).
+* Data/: Dữ liệu mẫu (Data Dictionary).
+* Images/: Ảnh chụp màn hình các báo cáo.
 
 ---
 ## Mục tiêu kinh doanh (Business Questions)
